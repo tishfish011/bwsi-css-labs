@@ -46,7 +46,7 @@ def simple_calculator(operation: str, num1: float, num2: float) -> float:
         if num2 != 0:
             return num1 / num2
         else:
-            #raise ValueError("Cannot divide by zero.")
+            #raise ValueError("Cannot divide by zero.") 
             request_sanitized_number("Cannot divide by zero. Please enter a new second number: ")
     else:
         raise ValueError("Invalid operation. Please choose from 'add', 'subtract', 'multiply', or 'divide'.")
